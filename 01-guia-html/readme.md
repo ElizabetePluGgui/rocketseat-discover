@@ -12,6 +12,6 @@ Lista ordenadas é com números ao lado da lista e não ordenada será sem núme
 
 BLOCKQUOTES é uma tag que indica que um texto foi citado.
 
-CITE é um elemento de citação de alguma informação é importante para acessibilidade do seu site e indica onde vc buscou tais informções.
+CITE uma tag de elemento de citação de alguma informação é importante para acessibilidade do seu site e indica onde vc buscou tais informções.
 
-O que é e onde usar o FRAGMENTOS? Em uma página onde escrevemos muitas informções Ex: livros que tem um títulos com "Sobre mim", "História", "Fale comigo" você quer ir direto ao ponto sem rolar a página clicando somente no nome específico solicitado e o link irá direcionar ao bloco específico usando [a href="#historia"] e no h1 colocar o id="historia".
+O que é e onde usar o FRAGMENTOS? Em uma página onde escrevemos muitas informções Ex: livros que tem um títulos com "Sobre mim", "História", "Fale comigo", e você quer ir direto ao ponto sem rolar a página clicando somente no nome específico solicitado onde o link irá direcionar ao bloco específico usando [a href="#historia"] e no h1 colocar o id="historia".
