@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela-Complexa</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Produzidos x vendidos por lojas
+      </caption>
+      <!-- Agrupando as colunas grandes com COLGROUP -->
+      <coulgroup>
+        <col />
+        <!-- Para selecionar 1, 2 ou mais colunas de cor SPAN="2" -->
+        <col span="2" style="background-color: red" />
+        <col span="2" style="background-color: blue" />
+      </coulgroup>
+
+      <!-- Melhorando a acessibilidade da TABELA com SCOPE="COLGROUP" É o agrupamento de colunas -->
+      <thead>
+        <tr>
+          <!-- Para ocupar 2 linhas e nao apresentar nada ficar em branco usar ROWSPAN="2" -->
+          <th rowspan="2"></th>
+          <!-- Para ocupar 2 colunas COLSPAN="2" 2 LINHAS -->
+          <th colspan="2" scope="colgroup">Elizabete Fabri</th>
+          <th colspan="2" scope="colgroup">Herbert Fabri</th>
+        </tr>
+        <!-- O escopo de cada Cabeçalho é de coluna scope="col" -->
+        <tr>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- O Escopo desse cabeçalho é o de Linha ROW -->
+          <!-- Tem cabeçalho para cada LINHAS -->
+          <!-- Tem o cabeçlho de cada COLUNA -->
+          <!-- E tem o cabeçalho de agrupamento de COLUNAS -->
+          <th scope="row">Vassouras</th>
+          <td>50</td>
+          <td>30</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <th scope="row">Baldes</th>
+          <td>10</td>
+          <td>10</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
