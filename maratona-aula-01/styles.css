@@ -7,3 +7,17 @@ body {
   background: #f0f5f0;
   font-family: 'Poppins', sans-serif;
 }
+.container {
+  width: 300px;
+
+  margin: auto;
+}
+header {
+  background: #ffb4f9;
+  padding: 2rem 0 10rem;
+  text-align: center;
+}
+#logo {
+  color: #fff;
+  font-weight: 100;
+}
