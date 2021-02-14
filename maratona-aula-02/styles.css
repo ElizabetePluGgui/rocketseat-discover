@@ -132,7 +132,7 @@ header {
 
   margin-top: 1rem;
 }
-.card.rose {
+.card.total {
   background: var(--color-pink);
   color: var(--color-black);
 }
