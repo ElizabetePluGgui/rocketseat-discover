@@ -2,11 +2,14 @@
   --color-black: #363f5f;
   --color-trasparent: #969cb3;
   --color-background: #e3e4e3;
-  --color-rose: #fd26929f;
+  --color-rose: #fd399b;
   --color-branco: white;
   --color-pink: #ff4089;
-
+  --color-pik-hover: #ff7dbe;
   --color-pink-logo: #ff0080;
+  --color-verde: #017c35;
+  --color-verde-hover: #03a848;
+  --color-red: #e92929;
 }
 
 * {
@@ -42,11 +45,11 @@ h2 {
   font-weight: normal;
 }
 a {
-  color: #ff0080;
+  color: var(--color-pink-logo);
   text-decoration: none;
 }
 a:hover {
-  color: #ff7dbe;
+  color: var(--color-pik-hover);
 }
 button {
   width: 100%;
@@ -55,7 +58,7 @@ button {
   border: none;
 
   color: white;
-  background: #017c35;
+  background: var(--color-verde);
 
   padding: 0;
 
@@ -64,15 +67,15 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background: #03a848;
+  background: var(--color-verde-hover);
 }
 .button.new {
   display: inline-block;
   margin-bottom: 0.8rem;
 }
 .button.cancel {
-  color: #e92929;
-  border: 2px solid #e92929;
+  color: var(--color-red);
+  border: 2px solid var(--color-red);
   border-radius: 0.25rem;
   cursor: pointer;
 
@@ -177,7 +180,7 @@ td.description {
 }
 
 td.income {
-  color: #12a454;
+  color: var(--color-verde-hover);
 }
 
 td.expense {
@@ -247,6 +250,9 @@ footer {
   color: var(--dark-blue);
 
   opacity: 0.6;
+}
+footer p {
+  margin-top: 450px;
 }
 @media (min-width: 800px) {
   html {
