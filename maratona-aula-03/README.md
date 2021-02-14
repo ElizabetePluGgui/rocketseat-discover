@@ -1,3 +1,3 @@
 # Maratona Discover-Aula 02
 
-![pagina](pagina.png 'pagina')
+![pagina](page.png 'pagina')
